@@ -1,0 +1,18 @@
+{
+	"name": "clean-json-file",
+	"version": "1.0.0",
+	"runtime": "12",
+	"repository": "https://github.com/joemccann/clean-json-file",
+	"description": "Take a dirty JSON file and clean it by removing properties and values that aren't useful.",
+	"main": "index.js",
+	"scripts": {
+		"pretest": "clear && standard .",
+		"test": "node test/"
+	},
+	"author": "Joe McCann",
+	"license": "MIT",
+	"devDependencies": {
+		"standard": "^14.3.3",
+		"tape": "^4.13.2"
+	}
+}
